@@ -7,3 +7,7 @@
 已训练好了的CTPN模型路径http://textdet.com/downloads/ctpn_trained_model.caffemodel将下好的载模型放在./ctpn/models
 
 已训练好了的CTC模型路径http://pan.baidu.com/s/1i5d5zdN
+
+ctc模块采用单例模式，这样caffe模型就不会加载多次。
+
+可修改ctpn下的cfg.py参数来适应实际中的项目。
